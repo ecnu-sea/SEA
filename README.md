@@ -8,6 +8,8 @@
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace--orange)](https://huggingface.co/ECNU-SEA)
 
+</div>
+
 **Unsure about the shortcomings in your work? Here’s what you can do....**
 
 https://ecnu-sea.github.io/static/videos/demo.mp4
