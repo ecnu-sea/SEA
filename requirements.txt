@@ -34,7 +34,6 @@ fastapi-cli==0.0.3
 ffmpy==0.3.2
 filelock==3.14.0
 fire==0.6.0
-flash-attn @ file:///cpfs01/user/dingzichen/environment/flash_attn-2.5.8%2Bcu118torch2.2cxx11abiFALSE-cp310-cp310-linux_x86_64.whl#sha256=5bd99410acb1b425ee1465205407998bc7ba80bf3fe173097ae8e2b68fac40c1
 fonttools==4.51.0
 frozenlist==1.4.1
 fsspec==2024.3.1
@@ -59,8 +58,6 @@ lazy_loader==0.4
 Levenshtein==0.25.1
 lightning==2.3.0
 lightning-utilities==0.11.2
-# Editable Git install with no remote (llmtuner==0.7.1.dev0)
--e /cpfs01/user/dingzichen/projects/dzc_factory/LLaMA-Factory
 lxml==5.2.2
 markdown-it-py==3.0.0
 MarkupSafe==2.1.5
