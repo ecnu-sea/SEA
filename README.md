@@ -11,8 +11,7 @@
 
 **Unsure about the shortcomings in your work? Here’s what you can do....**
 
-https://ecnu-sea.github.io/static/videos/demo.mp4
-
+https://github.com/ecnu-sea/sea/assets/52284163/2473418b-be94-4691-96d8-7ba79ab4690b
 
 ## 🔥 News
 - *2024.06*: 🎉 We have made SEA series [models](https://huggingface.co/ECNU-SEA) public !
