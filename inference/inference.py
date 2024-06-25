@@ -42,7 +42,6 @@ def infer_one(mmd_file_path):
     encodes = encodes.to("cuda:0")
     len_input = encodes.shape[1]
     generated_ids = chat_model.generate(encodes,max_new_tokens=8192,do_sample=True)
-    # response = chat_model.chat(messages)[0].response_text
     response = tokenizer.batch_decode(generated_ids[: , len_input:])[0]
     return response
 def run_review(mmd_file_path):
