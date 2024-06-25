@@ -1,7 +1,6 @@
-# Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis
-
 <div align="center">
 
+# Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis
 
 [![Website](https://img.shields.io/website?url=https://ecnu-sea.github.io/)](https://ecnu-sea.github.io/)
 [![Paper](https://img.shields.io/badge/paper--blue)](https://arxiv.org/pdf/2402.07456.pdf)
@@ -18,7 +17,7 @@ https://ecnu-sea.github.io/static/videos/demo.mp4
 ## 🔥 News
 - *2024.06*: 🎉 We have made SEA series [models](https://huggingface.co/ECNU-SEA) public !
 
-## What is SEA
+## ？ What is SEA
 
 SEA is a novel framework for automated paper reviewing based on three modules: Standardization, Evaluation, and Analysis. SEA is capable of generating comprehensive and high-quality review feedback with high consistency for papers.
 
