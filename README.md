@@ -16,7 +16,7 @@ https://github.com/ecnu-sea/sea/assets/52284163/2473418b-be94-4691-96d8-7ba79ab4
 ## 🔥 News
 - *2024.06*: 🎉 We have made SEA series [models](https://huggingface.co/ECNU-SEA) public !
 
-## ？ What is SEA
+## What is SEA ?
 
 SEA is a novel framework for automated paper reviewing based on three modules: Standardization, Evaluation, and Analysis. SEA is capable of generating comprehensive and high-quality review feedback with high consistency for papers.
 
