@@ -1,4 +1,4 @@
-![# SEA](logo_final.PNG)
+![# SEA](logo.PNG)
 
 <div align="center">
 
