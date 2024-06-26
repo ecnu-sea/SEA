@@ -1,3 +1,5 @@
+![# SEA](assets/logo.png)
+
 <div align="center">
 
 # Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis
