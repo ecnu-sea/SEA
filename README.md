@@ -37,7 +37,7 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
    pip install -e .
    ```
 
-3. **Now you are ready to have fun:**Note that you can change the hyperparameters in run_webui.sh
+3. **Now you are ready to have fun:** Note that you can change the hyperparameters in run_webui.sh
    ```
    cd web_ui
    bash run_webui.sh
