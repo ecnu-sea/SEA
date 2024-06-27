@@ -21,7 +21,28 @@ https://github.com/ecnu-sea/sea/assets/52284163/2473418b-be94-4691-96d8-7ba79ab4
 SEA is a novel framework for automated paper reviewing based on three modules: Standardization, Evaluation, and Analysis. SEA is capable of generating comprehensive and high-quality review feedback with high consistency for papers.
 
 ## ⚡️ Quickstart
+1. **Clone the GitHub Repository:** 
 
+   ```
+   git clone https://github.com/ecnu-sea/SEA.git
+   ```
+
+2. **Set Up Python Environment and Install Dependencies:** 
+
+   ```
+   conda create -n sea python=3.10 -y
+   conda activate sea
+   
+   cd sea
+   pip install -e .
+   ```
+
+3. **Now you are ready to have fun:**Note that you can change the hyperparameters in run_webui.sh
+   ```
+   cd web_ui
+   bash run_webui.sh
+   ```
+   
 
 
 ## 🛡 Disclaimer
