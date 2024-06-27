@@ -69,7 +69,7 @@ It must be underscored that the primary objective of SEA is to provide informati
 If you have any inquiries, suggestions, or wish to contact us for any reason, we warmly invite you to email us at sea.ecnu@gmail.com.
 
 ## 💐 Acknowledgments
-Grateful acknowledgment to [Nougat](https://github.com/facebookresearch/nougat) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/tree/main) for their foundational contributions to this repository.
+Thanks to [Nougat](https://github.com/facebookresearch/nougat) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/tree/main) for their foundational contributions to this repository.
 
 ## Star History
 
