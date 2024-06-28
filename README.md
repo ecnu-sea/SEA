@@ -43,7 +43,7 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
    bash run_webui.sh
    ```
    
-   
+
 ## 🛡 Disclaimer
 
 It must be underscored that the primary objective of SEA is to provide informative reviews for authors to **furnish authors with insightful critiques** aimed at **refining their works**, rather than directly influencing decisions regarding the acceptance or rejection of the papers. **Commercial use is not allowed.**, and we have emphasized this point in the supplementary clauses of the model's license.
@@ -70,6 +70,6 @@ If you have any inquiries, suggestions, or wish to contact us for any reason, we
 ## 💐 Acknowledgments
 Thanks to [Nougat](https://github.com/facebookresearch/nougat) and [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory/tree/main) for their foundational contributions to this repository.
 
-## Star History
+## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=ecnu-sea/sea&type=Date)](https://star-history.com/#ecnu-sea/sea&Date)
