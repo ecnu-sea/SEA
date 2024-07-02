@@ -27,17 +27,20 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
    git clone https://github.com/ecnu-sea/SEA.git
    ```
 
-2. **Set Up Python Environment and Install Dependencies:** 
+2. **Set Up Python Environment:** 
 
    ```
    conda create -n sea python=3.10 -y
    conda activate sea
-   
+   ```
+
+3. **Install SEA Dependencies:** 
+   ```
    cd sea
    pip install -r requirements.txt
    ```
 
-3. **Now you are ready to have fun:** Note that you can change the hyper parameters in run_webui.sh
+4. **Now you are ready to have fun:** Note that you can change the hyper parameters in run_webui.sh
    ```
    cd web_ui
    bash run_webui.sh
