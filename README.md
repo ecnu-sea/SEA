@@ -34,7 +34,7 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
    conda activate sea
    
    cd sea
-   pip install -e .
+   pip install -r requirements.txt
    ```
 
 3. **Now you are ready to have fun:** Note that you can change the hyper parameters in run_webui.sh
