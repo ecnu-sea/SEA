@@ -5,7 +5,7 @@ import json
 from tqdm import tqdm
 import os
 import sys
-from utils import *
+from paper_review.utils import *
 
 
 def infer_one(mmd_file_path,chat_model):

@@ -5,7 +5,7 @@ import os
 import sys
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-from utils import *
+from paper_review.utils import *
 
 
 def infer_one(mmd_file_path,chat_model,tokenizer):
