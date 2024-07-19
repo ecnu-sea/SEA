@@ -36,7 +36,7 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
 
 3. **Install SEA Dependencies:** 
    ```
-   cd sea
+   cd SEA
    pip install -r requirements.txt
    ```
 
