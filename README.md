@@ -3,7 +3,7 @@
 # <img src="assets/logo.png" alt="SEA" width="5%"> &nbsp; Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis
 
 [![Website](https://img.shields.io/website?url=https://ecnu-sea.github.io/)](https://ecnu-sea.github.io/)
-[![Paper](https://img.shields.io/badge/paper--blue)](https://arxiv.org/pdf/2402.07456.pdf)
+[![Paper](https://img.shields.io/badge/paper--blue)](https://arxiv.org/pdf/2407.12857)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-orange)](https://huggingface.co/ECNU-SEA)
 
@@ -55,13 +55,14 @@ It must be underscored that the primary objective of SEA is to provide informati
 ## 🔎 Citation
 
 ```
-@misc{yu2024sea,
-    title={Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis}, 
-    author={Jianxiang Yu and Zichen Ding and Jiaqi Tan and Kangyang Luo and Zhenmin Weng and Chegnhua Gong and Long Zeng and Renjing Cui and Chengcheng Han and Qiushi Sun and Zhiyong Wu and Yunshi Lan and Xiang Li},
-    year={2024},
-    eprint={2406.26456},
-    archivePrefix={arXiv},
-    primaryClass={cs.AI}
+@misc{yu2024automatedpeerreviewingpaper,
+      title={Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis}, 
+      author={Jianxiang Yu and Zichen Ding and Jiaqi Tan and Kangyang Luo and Zhenmin Weng and Chenghua Gong and Long Zeng and Renjing Cui and Chengcheng Han and Qiushi Sun and Zhiyong Wu and Yunshi Lan and Xiang Li},
+      year={2024},
+      eprint={2407.12857},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.12857}, 
 }
 ```
 
