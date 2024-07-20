@@ -45,7 +45,7 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
    cd web_ui
    bash run_webui.sh
    ```
-   **Tips: You can set the model path downloaded from Hugging Face in the web_ui/run_webui.sh file.**
+   **_Tips: You can set the model path downloaded from Hugging Face in the web_ui/run_webui.sh file._**
    
 
 ## 🛡 Disclaimer
