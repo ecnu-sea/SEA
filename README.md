@@ -41,6 +41,7 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
    ```
    
 4. **Download SEA-E model:**
+   
    You can download the [SEA-E](https://huggingface.co/ECNU-SEA/SEA-E) model from Huggingface to a local path by yourself, or you can run the following download script code:
    ```shell
    python web_ui/download_model.py
