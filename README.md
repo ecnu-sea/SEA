@@ -23,25 +23,31 @@ SEA is a novel framework for automated paper reviewing based on three modules: S
 ## ⚡️ Quickstart
 1. **Clone the GitHub Repository:** 
 
-   ```
+   ```shell
    git clone https://github.com/ecnu-sea/SEA.git
    ```
 
 2. **Set Up Python Environment:** 
 
-   ```
+   ```shell
    conda create -n sea python=3.10 -y
    conda activate sea
    ```
 
 3. **Install SEA Dependencies:** 
-   ```
+   ```shell
    cd SEA
    pip install -r requirements.txt
    ```
-
-4. **Now you are ready to have fun:** Note that you can change the hyper parameters in run_webui.sh
+   
+4. **Download SEA-E model:**
+   You can download the [SEA-E](https://huggingface.co/ECNU-SEA/SEA-E) model from Huggingface to a local path by yourself, or you can run the following download script code:
+   ```shell
+   python web_ui/download_model.py
    ```
+
+6. **Now you are ready to have fun:** Note that you can change the hyper parameters in run_webui.sh
+   ```shell
    cd web_ui
    bash run_webui.sh
    ```
