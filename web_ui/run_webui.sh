@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=0 python webui.py \
---model_name_or_path /root/SEA-E/ \
+--model_name_or_path /path/to/SEA-E/ \
 --template mistral \
 --max_new_tokens 8192 \
 --infer_type transformers
