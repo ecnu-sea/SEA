@@ -47,6 +47,7 @@ def infer_one(mmd_file_path):
     generated_ids = chat_model.generate(encodes,max_new_tokens=8192,do_sample=True)
     response = tokenizer.batch_decode(generated_ids[: , len_input:])[0]
     return response
+
 def run_review(mmd_file_path):
     infer_modelname = model_name.split('/')[-2]
     infer_save_path = "./" + infer_modelname + '/'
@@ -58,5 +59,5 @@ def run_review(mmd_file_path):
 
 
 if __name__ == "__main__":
-    review = run_review("/path/to")
+    review = run_review("/path/to/xxx.mmd")
     print(review)
