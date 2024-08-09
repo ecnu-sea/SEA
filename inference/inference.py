@@ -2,6 +2,13 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import json
 from tqdm import tqdm
 import os
+
+model_name = "/path/to/SEA-E/"
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+chat_model = AutoModelForCausalLM.from_pretrained(model_name)
+chat_model.to("cuda:0")
+
+
 def read_txt_file(path):
     with open(path, 'r') as f:
         content = f.read()
@@ -21,12 +28,6 @@ def save_output(output, save_dir, data_id):
 def get_subfile(path):
     subfiles = [d for d in os.listdir(path) if os.path.isfile(os.path.join(path, d))]
     return subfiles
-
-
-model_name = "/path/to/SEA-E/"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-chat_model = AutoModelForCausalLM.from_pretrained(model_name)
-chat_model.to("cuda:0")
 
 def infer_one(mmd_file_path):
     system_prompt_dict = read_json_file(os.path.join(os.path.dirname(os.path.abspath(__file__)),"template.json"))
@@ -54,6 +55,8 @@ def run_review(mmd_file_path):
         os.mkdir(infer_save_path)
     res = infer_one(mmd_file_path)
     return res
+
+
 if __name__ == "__main__":
     review = run_review("/path/to")
     print(review)
