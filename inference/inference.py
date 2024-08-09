@@ -21,7 +21,9 @@ def save_output(output, save_dir, data_id):
 def get_subfile(path):
     subfiles = [d for d in os.listdir(path) if os.path.isfile(os.path.join(path, d))]
     return subfiles
-model_name = "/cpfs01/user/dingzichen/projects/mistral/review_model/SEA-E/"
+
+
+model_name = "/path/to/SEA-E/"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 chat_model = AutoModelForCausalLM.from_pretrained(model_name)
 chat_model.to("cuda:0")
