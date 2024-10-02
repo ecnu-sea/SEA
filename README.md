@@ -3,7 +3,7 @@
 # <img src="assets/logo.png" alt="SEA" width="5%"> &nbsp; Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis
 
 [![Website](https://img.shields.io/website?url=https://ecnu-sea.github.io/)](https://ecnu-sea.github.io/)
-[![Paper](https://img.shields.io/badge/paper--blue)](https://arxiv.org/pdf/2407.12857)
+[![Paper](https://img.shields.io/badge/paper--blue)](https://arxiv.org/pdf/2407.12857v2)
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 [![HuggingFace](https://img.shields.io/badge/🤗-HuggingFace-orange)](https://huggingface.co/ECNU-SEA)
 
