@@ -66,14 +66,12 @@ It must be underscored that the primary objective of SEA is to provide informati
 ## 🔎 Citation
 
 ```
-@misc{yu2024automatedpeerreviewingpaper,
-      title={Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis}, 
-      author={Jianxiang Yu and Zichen Ding and Jiaqi Tan and Kangyang Luo and Zhenmin Weng and Chenghua Gong and Long Zeng and Renjing Cui and Chengcheng Han and Qiushi Sun and Zhiyong Wu and Yunshi Lan and Xiang Li},
-      year={2024},
-      eprint={2407.12857},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.12857}, 
+@inproceedings{yu2024automated,
+  title={Automated Peer Reviewing in Paper SEA: Standardization, Evaluation, and Analysis},
+  author={Yu, Jianxiang and Ding, Zichen and Tan, Jiaqi and Luo, Kangyang and Weng, Zhenmin and Gong, Chenghua and Zeng, Long and Cui, RenJing and Han, Chengcheng and Sun, Qiushi and others},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2024},
+  pages={10164--10184},
+  year={2024}
 }
 ```
 
